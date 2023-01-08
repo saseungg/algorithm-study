@@ -1,5 +1,5 @@
 # Algorithm study
-## member
+## 🔰 member
 <table><tr><td align="center"><a href="https://github.com/saseungg"><img src="https://user-images.githubusercontent.com/115215178/210618865-7185f216-6226-4e36-9187-2438236c59cf.png" width="150px;" alt=""/><br /><sub><b>daon</b></a><br/></td>
 
 <td align="center"><a href="https://github.com/dmswl2030"><img src="https://user-images.githubusercontent.com/115215178/210617937-28971c29-97cc-450c-991d-183aabd5a922.png" width="150px;" alt=""/><br /><sub><b>eunji</b></a><br/></td>
@@ -7,22 +7,38 @@
 <td align="center"><a href="https://github.com/bakhacode"><img src="https://user-images.githubusercontent.com/115215178/210696184-3efce43d-05b5-4148-881e-f055555a5b2f.png" width="150px;" alt=""/><br /><sub><b>bakha</b></a><br/></td>
 </table>
 
-## 주의사항
-- 코드를 업로드 하기 전에는 터미널에서 git pull을 실행한 후 시작합니다
-- 폴더 최상단에 위치한 README.md와 .gitignore은 수정하지 않습니다!
+## 🏁 코드 리뷰
+- 스터디 시작 날짜 : 2022-12-26 ~
+- 리뷰는 매주 수, 토 9시로 고정
+- 멤버가 그날 올린 코드는 무조건 확인하고 질문, 피드백, 새롭게 알게된 점이 있다면 코멘트 달아주기
 
-## 코드리뷰
-날짜 : 12 /
-수, 토 9시
+## 🏴‍☠️ 작성 방법
 
+1. 매일 은지 -> 다온 -> 박하 순으로 1시 전까지 디스코드에 문제 선정 (하루 한문제) / 문제 제출은 다음날 1시 전까지
 
-## 파일 규칙
-문제번호_이름.js
+2. 각자 폴더에다가 본인 이름으로 된 브랜치로 `push`
 
-## 업로드
-업로드 시간 1시까지
+   - ex) [daon] -> [week1] -> 120845_주사위의 개수.js
 
-## commit 규칙
+3. 문제는 다음날 1시 전까지 제출해서 각자 원격 저장소 `main2` 브랜치에 `Pull Request` & `merge`해주기
+
+   - PR 규칙 : [플랫폼] 문제이름 / 난이도 / 걸린시간
+
+     ```
+     [PRG] 주사위의 개수 / lv1 / 4분
+     ```
+
+4. 문제 담당자가 `main1` 브랜치에 `Pull Request` & `merge` 해주기
+
+   - PR 규칙 : 날짜 -  [플랫폼] 문제이름 / 난이도
+
+     ```
+     230109 - [PRG] 주사위의 개수 / Lv.1
+     ```
+
+5. `main1` 에다 한번 더 `Pull Request` & `merge` 하는 이유는 `main2`에서 충돌 없는지 확인 후 병합하기 위해서
+
+## 🏴 commit 규칙
 
 - commit 메세지: [문제 출처(플랫폼)] 문제이름 / 난이도 / 걸린시간
 - description: 문제 주소 (option)
@@ -36,6 +52,5 @@ git commit -m "[BOJ] Hello World / 브론즈5 / 1분" -m "https://www.acmicpc.ne
   - [LTC] - 리트코드
   - [ETC] - 그외
   
-  
-## pr 규칙
+ 
 
