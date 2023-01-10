@@ -14,10 +14,8 @@ for (let i = 1; i <= input[0]; i++) {
     } else {
       count = 0;
     }
-
     sum += count;
   }
-
   console.log(sum);
 }
 
