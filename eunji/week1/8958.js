@@ -1,4 +1,4 @@
-//OX 퀴즈 (https://www.acmicpc.net/problem/8958)
+//OX퀴즈 (https://www.acmicpc.net/problem/8958)
 //길이가 짧은 것 부터, 길이가 같으면 사전순으로 정렬하기
 //참고 : https://gurtn.tistory.com/40
 
