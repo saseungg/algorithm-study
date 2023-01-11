@@ -1,3 +1,4 @@
+
 //OX퀴즈 (https://www.acmicpc.net/problem/8958)
 //길이가 짧은 것 부터, 길이가 같으면 사전순으로 정렬하기
 //참고 : https://gurtn.tistory.com/40
@@ -14,6 +15,8 @@ for (let i = 1; i <= input[0]; i++) {
     } else {
       count = 0;
     }
+    sum += count;
+  }
     sum += count;
   }
   console.log(sum);
