@@ -1,9 +1,28 @@
 //OX 퀴즈 (https://www.acmicpc.net/problem/8958)
-//길이가 짧은 것 부터, 길이가 같으면 사전순으로 정렬하기
-//참고 : https://gurtn.tistory.com/40
+//OX퀴즈의 결과가 주어졌을 때, 점수를 구하는 프로그램을 작성하시오.
 
-const input = require("fs").readFileSync("./input.txt").toString().split("\n");
+const line = require("fs").readFileSync("./input.txt").toString().split("\n");
 
+for (let i = 1; i <= line[0]; i += 1) {
+  let contiguousOCounts = 0;
+  let score = 0;
+  for(let j = 0; j < line[i].length; j++) {
+    const char = line[i];
+    if (char[j] === "O") {
+      score += contiguousOCounts + 1;
+      contiguousOCounts += 1;
+    } else if (char[j] === "X") {
+      contiguousOCounts = 0
+    }
+  }
+  console.log(score);
+}
+
+/*
+[손코딩]
+- O표시가 연속일 때 count에 1을 더해줌
+
+[참고한 풀이]
 for (let i = 1; i <= input[0]; i++) {
   let count = 0;
   let sum = 0;
@@ -20,13 +39,6 @@ for (let i = 1; i <= input[0]; i++) {
 
   console.log(sum);
 }
-
-/*
-[손코딩]
-- O표시가 연속일 때 count에 1을 더해줌
-
-[참고한 부분]
-- 연속일때의 문자를 검사할때 이중 for문을 활용할 수 있었다..!
 
 [제이슨 풀이 참고]
 function calculateLine(line) {
