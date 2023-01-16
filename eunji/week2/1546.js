@@ -7,7 +7,7 @@ const input = require("fs").readFileSync("./input.txt").toString().split("\n");
 const num = input[0];
 const score = input[1].split(" ");
 
-const max = Math.max(...score)
+const max = Math.max(...score);
 let result = 0;
 
 for(let i = 0; i < input[0]; i++) {
