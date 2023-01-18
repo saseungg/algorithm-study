@@ -12,6 +12,7 @@ let result = 0;
 
 for(let i = 0; i < input[0]; i++) {
   result += score[i] / max * 100;
+  console.log(result);
 }
 console.log(result/num);
 
