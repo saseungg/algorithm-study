@@ -5,7 +5,7 @@ let input = require("fs").readFileSync("./input.txt").toString().trim().split("\
 
 const newArr = input.map(v => v % 42);
 
-const set = new Set(newArr);
+const set = new Set(newArr)
 const result = [...set];
 console.log(result.length);
 
