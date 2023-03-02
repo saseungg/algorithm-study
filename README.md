@@ -1,10 +1,11 @@
-# Algorithm study
+# Algorithm study!
+
 ## 🔰 member
-<table><tr><td align="center"><a href="https://github.com/saseungg"><img src="https://user-images.githubusercontent.com/115215178/210618865-7185f216-6226-4e36-9187-2438236c59cf.png" width="150px;" alt=""/><br /><sub><b>daon</b></a><br/></td>
+<table><tr><td align="center"><a href="https://github.com/saseungg"><img src="https://user-images.githubusercontent.com/115215178/222355046-97a53d5a-c3fb-4ad3-b7ed-d308c35eced0.jpeg" width="150px;" alt=""/><br /><sub><b>daon</b></a><br/></td>
 
 <td align="center"><a href="https://github.com/dmswl2030"><img src="https://user-images.githubusercontent.com/115215178/210617937-28971c29-97cc-450c-991d-183aabd5a922.png" width="150px;" alt=""/><br /><sub><b>eunji</b></a><br/></td>
 
-<td align="center"><a href="https://github.com/bakhacode"><img src="https://user-images.githubusercontent.com/115215178/210696184-3efce43d-05b5-4148-881e-f055555a5b2f.png" width="150px;" alt=""/><br /><sub><b>bakha</b></a><br/></td>
+<td align="center"><a href="https://github.com/bakhacode"><img src="https://user-images.githubusercontent.com/115215178/222355205-d608114a-648a-4dce-bc92-b48568331b81.jpeg" width="150px;" alt=""/><br /><sub><b>bakha</b></a><br/></td>
 </table>
 
 ## 🏁 코드 리뷰
